@@ -1,8 +1,8 @@
 /**
- *
- * @param {*} arr
- * @param {*} item
- * @returns
+ * Searches using Binary Search algorithm.
+ * @param {number[]} arr Source list
+ * @param {number} item Search item
+ * @returns {(number|null)} Source list index if the value is found or null if not
  */
 const binarySearch = (arr, item) => {
   let lowIndex = 0;
